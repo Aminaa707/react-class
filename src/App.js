@@ -40,7 +40,7 @@ class App extends Component {
             <Route exact path='/user' element={<UserData/>}/>
           </Route>
 
-            <Route path="*" element={<><h1>NOT FOUND 404</h1> <span> <a href="/"> GO HOME</a> </span>  </>} />
+            <Route path="*" element={<><h1>NOT FOUND 404</h1> <span> <a href="/"> GO TO HOME</a> </span>  </>} />
 
           </Routes>
         </BrowserRouter>
